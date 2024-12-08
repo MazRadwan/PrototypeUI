@@ -1,0 +1,40 @@
+.airportList {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 2fr;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+  color: #495057;
+}
+
+.listContainer {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.noResults {
+  text-align: center;
+  padding: 3rem;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}

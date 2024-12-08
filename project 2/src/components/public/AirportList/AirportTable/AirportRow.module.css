@@ -1,0 +1,46 @@
+.airportRow {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 2fr;
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  transition: background-color 0.3s;
+}
+
+.airportRow:hover {
+  background-color: #f8f9fa;
+}
+
+.name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.code {
+  font-weight: 600;
+  color: #495057;
+}
+
+.city, .country {
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .airportRow {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    font-size: 0.875rem;
+  }
+
+  .country {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .airportRow {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .city {
+    display: none;
+  }
+}

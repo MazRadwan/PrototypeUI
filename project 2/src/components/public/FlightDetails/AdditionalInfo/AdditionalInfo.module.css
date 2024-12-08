@@ -1,0 +1,25 @@
+.additionalInfo {
+  margin-top: 2rem;
+}
+
+.additionalInfo h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.infoGrid div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.infoGrid strong {
+  color: #666;
+}

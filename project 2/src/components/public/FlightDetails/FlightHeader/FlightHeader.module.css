@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.scheduled { color: #007bff; }
+.active { color: #28a745; }
+.delayed { color: #ffc107; }
+.cancelled { color: #dc3545; }
+.completed { color: #6c757d; }

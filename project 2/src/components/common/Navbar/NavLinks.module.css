@@ -1,0 +1,29 @@
+.links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.links a {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 0.9375rem;
+}
+
+.links a:hover {
+  background-color: rgba(236, 240, 241, 0.1);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .mobileMenu .links {
+    display: flex;
+  }
+}

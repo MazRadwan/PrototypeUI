@@ -1,0 +1,32 @@
+.details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.detailGroup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.detailGroup h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.detailGroup p {
+  margin: 0.25rem 0 0;
+  font-size: 1.1rem;
+  color: #333;
+}

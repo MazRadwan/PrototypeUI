@@ -1,0 +1,29 @@
+.flightPath {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.location {
+  text-align: center;
+}
+
+.location h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.location p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+.flightIcon {
+  font-size: 2rem;
+  color: #007bff;
+}
